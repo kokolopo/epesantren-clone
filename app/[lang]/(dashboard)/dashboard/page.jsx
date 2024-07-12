@@ -1,5 +1,4 @@
 import React from "react";
-import { cn } from "@/lib/utils";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import DataStats from "./components/data-stats";
 import SimpleTable from "./components/simple-table";
