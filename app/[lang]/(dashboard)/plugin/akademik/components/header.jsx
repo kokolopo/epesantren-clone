@@ -49,7 +49,7 @@ const Header = () => {
             </div>
             <Button
               asChild
-              className="absolute bottom-5 ltr:right-6 rtl:left-6 rounded px-5 hidden lg:flex"
+              className="absolute bottom-5 ltr:right-6 rtl:left-6 rounded px-5  lg:flex"
               size="sm"
             >
               <Link href="/plugin/akademik">
