@@ -10,9 +10,9 @@ import DatePickerWithRange from "@/components/date-picker-with-range";
 import { getCategories, getEvents } from "@/config/calendar.config";
 import { Button } from "@/components/ui/button";
 
-const page = async () => {
-  const events = await getEvents();
-  const categories = await getCategories();
+const page = () => {
+  // const events = await getEvents();
+  // const categories = await getCategories();
   return (
     <div className="space-y-6">
       <div className="flex items-center flex-wrap justify-between gap-4">
@@ -76,7 +76,7 @@ const page = async () => {
           </CardContent>
         </Card>
 
-        <CalendarView events={events?.data} categories={categories?.data} />
+        {/* <CalendarView events={events?.data} categories={categories?.data} /> */}
       </div>
 
       {/* Calendar */}
